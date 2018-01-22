@@ -13,6 +13,8 @@
 		A1C8F82C2011E0A100AD9643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F82B2011E0A100AD9643 /* Assets.xcassets */; };
 		A1C8F82F2011E0A100AD9643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F82D2011E0A100AD9643 /* LaunchScreen.storyboard */; };
 		A1C8F8322011E0A100AD9643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8312011E0A100AD9643 /* main.m */; };
+		A1FD5AE0201584E800AC000C /* ADMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5ADF201584E800AC000C /* ADMediator.m */; };
+		A1FD5AE320158B5800AC000C /* ADMediatorExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5AE220158B5800AC000C /* ADMediatorExceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +28,10 @@
 		A1C8F82E2011E0A100AD9643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1C8F8302011E0A100AD9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8F8312011E0A100AD9643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1C8F8A32011E9D800AD9643 /* ADMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMediator.h; sourceTree = "<group>"; };
+		A1FD5ADE201584E800AC000C /* ADMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMediator.h; sourceTree = "<group>"; };
+		A1FD5ADF201584E800AC000C /* ADMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMediator.m; sourceTree = "<group>"; };
+		A1FD5AE120158B5800AC000C /* ADMediatorExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMediatorExceptionHandler.h; sourceTree = "<group>"; };
+		A1FD5AE220158B5800AC000C /* ADMediatorExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMediatorExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +81,10 @@
 		A1C8F8A22011E9CE00AD9643 /* ADMediator */ = {
 			isa = PBXGroup;
 			children = (
-				A1C8F8A32011E9D800AD9643 /* ADMediator.h */,
+				A1FD5ADE201584E800AC000C /* ADMediator.h */,
+				A1FD5ADF201584E800AC000C /* ADMediator.m */,
+				A1FD5AE120158B5800AC000C /* ADMediatorExceptionHandler.h */,
+				A1FD5AE220158B5800AC000C /* ADMediatorExceptionHandler.m */,
 			);
 			path = ADMediator;
 			sourceTree = "<group>";
@@ -153,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1C8F8272011E0A100AD9643 /* ViewController.m in Sources */,
+				A1FD5AE0201584E800AC000C /* ADMediator.m in Sources */,
 				A1C8F8322011E0A100AD9643 /* main.m in Sources */,
+				A1FD5AE320158B5800AC000C /* ADMediatorExceptionHandler.m in Sources */,
 				A1C8F8242011E0A100AD9643 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
